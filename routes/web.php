@@ -32,7 +32,7 @@ Route::post('/updateCertificate/{id}', [\App\Http\Controllers\certificates\Certi
 Route::get('/editBlog/{id}', [\App\Http\Controllers\BlogController::class,'edit'])->name('editBlog')->middleware('auth');
 Route::post('/updateBlog/{id}', [\App\Http\Controllers\BlogController::class,'upd_blog'])->name('updblog')->middleware('auth');
 
-Route::get('/works',[\App\Http\Controllers\photos\PhotoController::class,'getArticles']);
+Route::get('/works',[\App\Http\Controllers\photos\PhotoController::class,'getArticles'])->name('works');
 Route::get('/certificates',[\App\Http\Controllers\certificates\CertificatesController::class,'selectCertificates']);
 
 Route::get('/projects', function () {

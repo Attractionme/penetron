@@ -32,27 +32,36 @@
 
 		<header class="pb stick">
 			<div class="hd_bar">
-				<div class="container">
-					<div class="header-bar">
-						<div class="logo">
-							<a href="/" title=""><img src="{{asset('../../public/images/logo-3.png')}}" alt=""></a>
-						</div><!--logo end-->
-						<nav>
+			<div class="container">
+				<div class="row">
+
+					
+					<div class="header-bar col-md-10">
+						<!--logo end-->
+						<nav class="col-md-12">
 							<ul>
-                                <li><a class="active" href="/" title="">الصفحة الرئيسية</a>
-                                </li>
-                                <li><a href="/works" title="">الأعمال</a></li>
-                                <li><a href="/certificates" title="">الشهادات</a></li>
-                                <li><a href="/blog" title="">المدونة</a></li>
-                                <li><a href="/about" title="">من نحن</a></li>
-                                <li><a href="/contact" title="">تواصل معنا</a></li>
+								<li><a class="active" href="/" title="">الصفحة الرئيسية</a>
+								</li>
+								<li><a href="/works" title="">الأعمال</a></li>
+								<li><a href="/certificates" title="">الشهادات</a></li>
+								<li><a href="/projects" title="">المشاريع</a></li>
+								<li><a href="/blog" title="">المدونة</a></li>
+								<li><a href="/about" title="">من نحن</a></li>
+								<li><a href="/contact" title="">تواصل معنا</a></li>
 							</ul>
-						</nav><!--nav end-->
+						</nav>
+						<!--nav end-->
 						<div class="mobile-menu-btn">
 							<a href="#" title="" class="open-menu"><i class="fa fa-bars"></i></a>
-						</div><!--mobile-menu-btn end-->
-					</div><!--header-bar end-->
+						</div>
+						<!--mobile-menu-btn end-->
+					</div>
+					<div class="logo col-md-2" style="background-color:#fff ;">
+						<a href="/" title=""><img class="h-img" src="{{asset('images/logo-3.png')}}" style="width:80% ;" alt=""></a>
+					</div>
 				</div>
+				<!--header-bar end-->
+			</div>
 			</div><!--hd_bar end-->
 		</header>
 
